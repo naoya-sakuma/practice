@@ -84,8 +84,23 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 
+<<<<<<< HEAD
 production:
   <<: *default
   database: practice_production
   username: practice
   password: <%= ENV['PRACTICE_DATABASE_PASSWORD'] %>
+=======
+# production:
+#   <<: *default
+#   database: practice_production
+#   username: practice
+#   password: <%= ENV['PRACTICE_DATABASE_PASSWORD'] %>
+
+  production:
+    <<: *default
+    database: practice_production
+    host: <%= ENV['DB_HOST'] %>
+    username: practice
+    password: <%= ENV['PRACTICE_DATABASE_PASSWORD'] %>
+>>>>>>> ee6416fb90080ed561f6e9f00a635cee6d7619c4
