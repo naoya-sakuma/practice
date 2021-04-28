@@ -296,6 +296,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt_pbkdf
   bootsnap (>= 1.1.0)
+  bundler (>= 2.1.4)
   byebug
   capistrano (= 3.6.0)
   capistrano-bundler

@@ -49,3 +49,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'rubocop', require: false
+gem 'bundler', '>= 2.1.4'
